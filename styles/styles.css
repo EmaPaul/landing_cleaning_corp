@@ -181,7 +181,13 @@
   .img_about{
     width: 450px;
   } 
-  
+
+.wrap-text-column input[type="text"],
+.wrap-text-column textarea {
+  padding-left: 10px; /* Puedes ajustar este valor según tu preferencia */
+}
+
+
   /** Form Section **/
   
   section.two-column-section.form{
@@ -198,7 +204,7 @@
   }
 
   .labels{
-    color: white
+    color: white;
   }
   
   .form textarea{
@@ -358,5 +364,10 @@
   .wrap-logos-section{
     margin-left: 10px;
     width: 350px;
+  }
+
+  .wrap-text-column input[type="text"],
+  .wrap-text-column textarea {
+    padding-left: 5px; /* Puedes ajustar este valor según tu preferencia */
   }
 }
