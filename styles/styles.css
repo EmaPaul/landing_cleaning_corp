@@ -31,7 +31,7 @@
     color: #fff;
     font-weight: bold;
     font-size: 1.2rem;
-    background-color: #122357;
+    background-color: #142454;
     padding: .5rem 1rem;
     border-radius: var(--border-r);
   }
@@ -130,7 +130,7 @@
   /** Servicios Section **/
   
   .servicios-section{
-    background:#122357;
+    background:#385E88;
   }
   
   .wrap-servicios-section{
@@ -146,6 +146,10 @@
   .item-servicios-section img{
     width: 330px;
     height: 300px;
+  }
+
+  .img_services{
+    border: 1px solid ;
   }
   
   /** Two Columns Section **/
@@ -181,7 +185,7 @@
   /** Form Section **/
   
   section.two-column-section.form{
-    background-color: #00a7eb;
+    background-color: #385E88;
     padding: 3rem 0;
   }
   
@@ -191,6 +195,10 @@
     line-height: 1.75rem;
     border: 1.5px solid #122357;
     border-radius: var(--border-r);
+  }
+
+  .labels{
+    color: white
   }
   
   .form textarea{
@@ -239,6 +247,10 @@
     color:white;
   }
 
+  .contact{
+    color:white
+  }
+
   #trucaso{
     opacity: 0;
     cursor:none;
@@ -258,14 +270,14 @@
 }
 
 .slider li {
-  width: 25%; /* Se cambia a 25% para adaptarse a 4 comentarios */
+  width: 25%; 
   list-style: none;
   display: flex; /* Añadido */
   justify-content: center;
 }
 
 .comment {
-  background-color: #f0f0f0;
+  background-color: #B4EAFB;
   padding: 20px;
   border-radius: 10px;
   margin: 10px;
@@ -283,6 +295,7 @@
   margin-top: 10px;
   font-style: italic;
 }
+
 
 @keyframes cambio {
   0% {
