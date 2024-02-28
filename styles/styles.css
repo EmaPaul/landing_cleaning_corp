@@ -302,6 +302,9 @@
   font-style: italic;
 }
 
+.img_about{
+  width: 450px;
+}
 
 @keyframes cambio {
   0% {
