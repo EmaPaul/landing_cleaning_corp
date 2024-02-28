@@ -187,10 +187,6 @@
             <label for="nombre" class="labels">Name:</label>
             <input type="text" name="nombre" id="nombre" required="">
             <br><br>
-
-            <label for="correo" class="labels">Email:</label>
-            <input type="text" name="asunto" id="asunto" required="">
-            <br><br>
             
             <label for="asunto" class="labels">Affair:</label>
             <input type="text" name="asunto" id="asunto" required="">
@@ -198,7 +194,7 @@
             
             <label for="mensaje" class="labels">Message:</label>
             <br>
-            <textarea name="mensaje" id="mensaje" rows="4" cols="50" required=""></textarea>
+            <textarea name="mensaje" id="mensaje" rows="4" cols="50" required="" class="text_area"></textarea>
             <br><br>
             
             <input type="submit" value="Send" class="cta-a">
@@ -248,9 +244,7 @@
       function handleSubmit(event){
         const form =new FormData(this);
         console.log(form.get('name'))
-        botonMailto.setAttribute('href',`mailto:magiccleaning.corp@gmail.com?subject=${form.get('nombre')}&body=${form.get('message')}`)
-        botonMailto.setAttribute('href',`mailto:magiccleaning.corp@gmail.com?subject=${form.get('correo')}&body=${form.get('message')}`)
-        botonMailto.setAttribute('href',`mailto:magiccleaning.corp@gmail.com?subject=${form.get('asunto')}&body=${form.get('message')}`)
+        botonMailto.setAttribute('href',`mailto:magiccleaning.corp@gmail.com?subject=${form.get('nombre')} - ${form.get('asunto')}&body=${form.get('mensaje')}`)
         botonMailto.click()
       }
     </script>

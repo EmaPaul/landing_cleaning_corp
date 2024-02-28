@@ -330,6 +330,11 @@
   }
 }
 
+.text_area{
+  line-height: normal;
+  letter-spacing: normal;
+  padding: 10px;
+}
 
 
 
@@ -369,5 +374,11 @@
   .wrap-text-column input[type="text"],
   .wrap-text-column textarea {
     padding-left: 5px; /* Puedes ajustar este valor según tu preferencia */
+  }
+
+  .text_area{
+    line-height: normal;
+    letter-spacing: normal;
+    padding: 4.5px;
   }
 }
